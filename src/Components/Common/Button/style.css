@@ -1,0 +1,28 @@
+button{
+    padding: 0.4rem 0.5rem;
+    border-radius: 0.5rem;
+    border-color: transparent;
+    color: white;
+    background-color: #4934fe;
+    font-family: inherit;
+    cursor: pointer;
+    transition: 0.2s ease;
+    font-weight: 400;
+}
+
+button:hover{
+    background-color: #5d4bff;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.btn .btn-prefix, .btn-suffix{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

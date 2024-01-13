@@ -1,0 +1,9 @@
+.left{
+    background-color: #FAFAFA;
+    height: 100vh;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    box-sizing: border-box;
+}

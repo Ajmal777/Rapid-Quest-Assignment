@@ -1,0 +1,21 @@
+.select{
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    border-bottom: 1.5px solid #d1d1d1;
+}
+
+#select{
+    background-color: transparent;
+    border: 1px solid transparent;
+    outline: none;
+    padding: 1rem 0;
+}
+
+#select:focus{
+    outline: none;
+}
+
+.select > label{
+    font-weight: 600;
+}

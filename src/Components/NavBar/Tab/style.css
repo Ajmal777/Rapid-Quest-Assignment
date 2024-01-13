@@ -1,0 +1,33 @@
+.tab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.15rem;
+    border-radius: 8px;
+    width: 2rem;
+    height: 2rem;
+    transition: all 0.2s ease;
+    border: 1px solid transparent;
+}
+.tab:hover{
+    scale: 1.15;
+    cursor: pointer;
+    background-color: #FAFAFA;
+    border-color: rgb(212, 211, 211);
+}
+.tab svg{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tab.active, .tab:active{
+    color: white;
+    background-color: #3E2FDE;
+    box-shadow: 0px 0px 5px 1px #8e81f3;
+}
+
+.tab > * {
+    max-width: 100%;
+    max-height: 100%;
+}

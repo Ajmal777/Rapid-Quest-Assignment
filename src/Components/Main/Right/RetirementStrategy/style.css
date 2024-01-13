@@ -1,0 +1,33 @@
+.ranges{
+    border-bottom: 1.5px solid #cbcbcb;
+}
+.retirement{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #FAFAFA;
+    padding: 1.5rem 1rem;
+    border-radius: 15px;
+    margin-top: 1.5rem;
+}
+.retirement > a{
+    align-self: center;
+}
+.stats{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem 0;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.item > span{
+    font-weight: 600;
+}

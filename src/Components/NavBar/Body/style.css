@@ -1,0 +1,28 @@
+.navbar{
+    width: 3.5rem;
+    height: 100vh;
+    box-shadow: 0px 0px 5px rgb(216, 216, 216);
+    padding: 1rem 0.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+}
+
+.navbar > * {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.tabList{
+    margin-top: 2.5rem;
+}
+.bottom{
+    margin-top: auto;
+}
